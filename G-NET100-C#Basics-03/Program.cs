@@ -20,13 +20,16 @@ namespace G_NET100_C_Basics_03
 
             #endregion
 
-            
-        // 2-   Using the Book class above, print the result of calling ToString(), Equals() (compare book with itself), GetHashCode(), and GetType() on book.
 
-
-
+            // 2-   Using the Book class above, print the result of calling ToString(), Equals() (compare book with itself), GetHashCode(), and GetType() on book.
+            #region  OBJECT FUNCTOIN second answer
+            Console.WriteLine(obj2.ToString());
+            Console.WriteLine(obj2.Equals(obj2));
+            Console.WriteLine(obj2.GetHashCode());
+            Console.WriteLine(obj2.GetType());
+            #endregion
 
 
         }
-}
+    }
 }
