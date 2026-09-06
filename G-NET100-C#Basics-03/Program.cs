@@ -28,8 +28,14 @@ namespace G_NET100_C_Basics_03
             Console.WriteLine(obj2.GetHashCode());
             Console.WriteLine(obj2.GetType());
             #endregion
+            // third aswer
+            #region error  third answer
+            // 3 
+            //  int pages = "464";   is error this string not int 
+            int pages = 464; // this is correct int type
+            Console.WriteLine(pages);
 
-
+            #endregion
         }
     }
 }
