@@ -65,6 +65,16 @@ namespace G_NET100_C_Basics_03
 
             Console.WriteLine(pagesDouble);
             #endregion
+
+            // sixth answer
+            #region   sixth answer
+            double price = 49.99;
+
+            int priceInt = (int)price;
+
+            Console.WriteLine(priceInt);
+
+            #endregion
         }
     }
 }
