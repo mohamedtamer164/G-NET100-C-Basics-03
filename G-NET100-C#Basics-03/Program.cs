@@ -105,8 +105,15 @@ namespace G_NET100_C_Basics_03
                 Console.WriteLine("Invalid number");
             }
             #endregion
+            // ninth answer
+            #region ninth answer
+            int pages4 = 464;
 
-            
+            string pages4Text = pages4.ToString();
+
+            Console.WriteLine(pages4Text);
+            Console.WriteLine(pages4Text.GetType());
+            #endregion
         }
     }
 }
