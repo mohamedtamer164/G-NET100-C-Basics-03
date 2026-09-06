@@ -29,7 +29,7 @@ namespace G_NET100_C_Basics_03
             Console.WriteLine(obj2.GetType());
             #endregion
             // third aswer
-            
+
             #region error  third answer
             // 3 
             //  int pages = "464";   is error this string not int 
@@ -54,6 +54,16 @@ namespace G_NET100_C_Basics_03
             {
                 Console.WriteLine("Done");
             }
+            #endregion
+
+
+            // fifth answer
+            #region implicit conversion  fifth answer
+            int pages2 = 300;
+
+            double pagesDouble = pages2;
+
+            Console.WriteLine(pagesDouble);
             #endregion
         }
     }
