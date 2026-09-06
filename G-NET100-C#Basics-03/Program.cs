@@ -29,12 +29,31 @@ namespace G_NET100_C_Basics_03
             Console.WriteLine(obj2.GetType());
             #endregion
             // third aswer
+            
             #region error  third answer
             // 3 
             //  int pages = "464";   is error this string not int 
             int pages = 464; // this is correct int type
             Console.WriteLine(pages);
 
+            #endregion
+            // fourth answer
+            #region try /catch / finally  foreth answer
+            // fourth answer
+            int x = 0;
+
+            try //  هنا انت بتجرب تقسم علي صفر ف هيطلع ايرور  Exception
+            {
+                int result = 10 / x;
+            }
+            catch // هنا عشان تقوله مينفعش اقسم علي صفر 
+            {
+                Console.WriteLine("Cannot divide by zero");
+            }
+            finally // هنا عشان تقوله مهما حصل في الكود اللي فوق سواء حصل ايرور او لا هيعمل اللي جوا ال finally
+            {
+                Console.WriteLine("Done");
+            }
             #endregion
         }
     }
