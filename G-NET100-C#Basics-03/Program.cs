@@ -75,6 +75,15 @@ namespace G_NET100_C_Basics_03
             Console.WriteLine(priceInt);
 
             #endregion
+
+            // seventh answer
+            #region seventh answer
+            string pages3Text = "464";
+
+            int pages3 = Convert.ToInt32(pages3Text);
+
+            Console.WriteLine(pages3);
+            #endregion
         }
     }
 }
