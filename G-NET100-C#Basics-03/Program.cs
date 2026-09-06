@@ -113,7 +113,19 @@ namespace G_NET100_C_Basics_03
 
             Console.WriteLine(pages4Text);
             Console.WriteLine(pages4Text.GetType());
+
             #endregion
+            // tenth answer
+            #region tenth answer
+            int copies = 100;
+
+            object obj3 = copies;   // Boxing
+
+            int newCopies = (int)obj3;   // Unboxing
+
+            Console.WriteLine(copies);
+            Console.WriteLine(newCopies);
+            #endregion 
         }
     }
 }
